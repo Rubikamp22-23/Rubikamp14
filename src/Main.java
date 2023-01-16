@@ -1,5 +1,32 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        /*
+           System.out.println("Hello world!");
+           System.out.println("Hello world!");
+           System.out.println("Hello world!");
+           System.out.println("Hello world!");
+           System.out.println("Hello world!");
+           System.out.println("Hello world!");
+         */
+
+        for (int i = 0; i < 6; i++) {
+            //  System.out.println("Hello world!");
+        }
+
+        var num = 1.8;
+
+
+        for (int i = 0; i <= 30; i += 3) {
+            // System.out.println(i);
+        }
+
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.println("even result: " + i);
+            }
+        }
+
+
     }
 }

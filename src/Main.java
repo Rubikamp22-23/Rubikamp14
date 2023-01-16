@@ -23,10 +23,37 @@ public class Main {
 
         for (int i = 0; i <= 100; i++) {
             if (i % 2 == 0) {
-                System.out.println("even result: " + i);
+                //  System.out.println("even result: " + i);
             }
+        }
+
+//        int number = 1;
+//        do {
+//            System.out.println(number);
+//            number++;
+//        }
+//        while (number <=10);
+//    }
+//
+//        int number = 0;
+//        while (number < 1000) {
+//            number += 100;
+//            System.out.println("My Number Is: " + number);
+//            if (number == 700) {
+//                break;
+//            }
+//        }
+
+        int number = 0;
+        while (number < 1000) {
+            number += 100;
+            if (number == 300) {
+                break;
+            }
+            System.out.println("My Number Is: " + number);
         }
 
 
     }
+
 }
